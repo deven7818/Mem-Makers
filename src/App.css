@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+/*********NAVBER******/
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar__text{
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto; 
+  color: #fff;
+
+}
+.logo{
+  font-weight: 900;
+  width: 40%;
+}
+
+.navbar__ul{
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+
+.navbar__ul li a:hover{
+  color: #f00;
+}
+
+.navbar__ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  font-weight: 700;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+.banner__btn{
+  margin-top: 35px;
+}
+
+.btn{
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn-smart{
+  background-color: rgb(255, 69, 79);
+}
+
+
+/**********Contact*********/
+.contact_div {
+  width: 100%;
+  height: 75vh;
+}
+
+/******ABOUT******/
+
+.about{
+ padding: 80px 0;
+}
+
+.p-25{
+  padding: 45px;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+
+.about h3{
+  color: rgba(37,37,37,0.7);
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.about h1{
+  font-size: 40px;
+  color: #252525;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+.about p{
+  color: #a76666;
+  padding: 5px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.about__btn{
+  margin-top: 20px;
+}
+
+.about__img{
+  background: url("./Components/8.webp"); 
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  display: inline-table;
+}
+
+
+/********Destination******/
+.destination{
+  width: 100%;
+  background: url("./Components/8.webp"); 
+  height: 450px;
+  background-attachment: fixed;
+  overflow: hidden;
+  
+}
+
+.destination__text{
+  height: 450px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.destination__text h1{
+  font-size: 35px;
+  line-height: 60px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+.destination__btn{
+  margin-top: 35px;
+}
+
+
+
+/******GALLARY******/
+
+.gallary{
+  padding: 80px 0;
+}
+
+.gallary h3{
+  color: rgba(37,37,37,0.7);
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.gallary h1{
+  font-size: 40px;
+  color: #252525;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+.gallary p{
+  color: #8b8b8b;
+  font-weight: 300;
+}
+
+.gallary__btn{
+  margin-top: 35px;
+}
+
+.gallary__img{
+  background: url("./Components/8.webp"); 
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+
+
+/**********Clients**********/
+
+.clients{
+  width: 100%;
+  padding: 100px 0;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),  url("../src/Clients/destination.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+
+}
+
+.client{
+  text-align: center;
+}
+
+.client h1{
+  font-size: 35px;
+}
+
+.client p{
+  font-style: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+/***********Services***********/
+
+.services{
+  width: 100%;
+  padding: 80px 0;
+}
+
+.service{
+  padding: 20px;
+  text-align: center;
+}
+
+.service__img{
+  background: url("./Components/birthday.jfif"); 
+  width: 250px;
+  height: 100%;
+  margin-left: 70px;
+  overflow: hidden;
+}
+
+.service__heading{
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+.service__text{
+  margin-top: 15px;
+  color: #888888;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/**********Responsivee CSS***********/
+
+
+@media screen and (max-width: 700px ){
+  .navbar__text {
+    display: flex !important;
+    height: auto !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0 auto ; 
+    color: #fff !important;
+  }
+
+
+
+  .logo{
+    margin-bottom: 20px !important;
+    margin-top: 20px;
+  }
+  .container{
+    width: 100%;
+  }
+
+  
+  .banner__text{
+    width: auto;
+  }
+
+  .banner__text h1{
+    font-size: 40px !important;
+    line-height: 60px;
+    font-weight: 900px;
+    margin-top: 20px;
+    color: #f00;
+  }
+
+  .banner__text h3{
+    font-size: 25px !important;
+    color: rgb(65, 25, 211);
+    line-height: 80px;
+    font-weight: 800px;
+  }
+  .navbar__ul{
+    width: 100%;
+    justify-content: center;
+  }
+  .navbar__ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+    font-weight: 300;
+    font-size: large;
+    text-transform: uppercase;
+  }
+
+  
+
+  
+  .about__img{
+    display: inline-block;
+    margin-left: auto;
+    width: 100%;
+    height: 500px;
+  }
+
+  .gallary__img{
+    display: inline-block;
+    margin-left: auto;
+    width: 100%;
+    height: 500px;
+  }
+
+  .client{
+    margin: 20px 0;
+  }
+  .about h1{
+    font-size: 25px;
+  }
+  .destination h1{
+    font-size: 25px;
+  }
+
+  .gallary h1{
+    font-size: 25px;
+  }
+
+}

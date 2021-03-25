@@ -1,0 +1,414 @@
+.fnt{
+    font-family: cursive;
+    background-color: rgb(48, 39, 39);
+}
+.galheading{
+  color: #fff !important;
+}
+.box-item{
+  margin-top: 40px;
+}
+.photoimg1{
+    background-image: url('../event3.jfif');
+    margin-top: 25px;
+}
+
+.photoimg2{
+    background-image: url('../event6.jfif');
+    margin-top: 25px;
+}
+
+.photoimg3{
+    background-image: url('../event8.jpg');
+    margin-top: 25px;
+}
+.color-white{
+    color: white;
+}
+.flip-box{
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.flip-box-front,
+.flip-box-back{
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    min-height: 475px;
+    transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+    backface-visibility: hidden;
+}
+
+.flip-box-front{
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-front{
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.flip-box-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-back{
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+}
+
+.flip-box .inner{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 60px;
+    outline: 1px solid transparent;
+    perspective: inherit;
+    z-index: 2;
+    transform: translateY(-50%)translateZ(60px) scale(.94);
+    top: 50%;
+}
+.flip-box-header{
+    font-size: 30px;
+}
+.flip-box p{
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+
+.flip-box-button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+
+/********Gallary col images **********/
+.gallarybg{
+  
+  margin: auto;
+}
+.gal-img-padding{
+  margin: auto;
+}
+
+
+.galimg1{
+    background-image: url('../../Images/galimg1.JPG');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+
+  
+.galimg2{
+    background-image: url('../../Images/galimg2.jpg');
+    border-radius: 20px;
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+  }
+  
+.galimg3{
+    background-image: url('../../Images/galimg3.jfif');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+  
+.galimg4{
+    background-image: url('../../Images/galimg4.jfif');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+  
+.galimg5{
+    background-image: url('../../Images/galimg5.JPG');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+  
+.galimg6{
+    background-image: url('../../Images/galimg6.jfif');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+  
+.galimg7{
+    background-image: url('../../Images/galimg7.jpg');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+  
+.galimg8{
+    background-image: url('../../Images/galimg8.jpg');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+  
+.galimg9{
+    background-image: url('../../Images/galimg9.jpg');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+  
+.galimg10{
+    background-image: url('../../Images/galimg10.jpg');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+  
+.galimg11{
+    background-image: url('../../Images/galimg11.jpg');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+  
+.galimg12{
+    background-image: url('../../Images/galimg12.jpg');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+.galimg13{
+    background-image: url('../../Images/galimg13.jpg');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }  
+.galimg14{
+    background-image: url('../../Images/galimg14.jpg');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+.galimg15{
+    background-image: url('../../Images/galimg15.jpg');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+.galimg16{
+    background-image: url('../../Images/galimg16.jpg');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+
+  /********Birthday card********/
+.birthimg1{
+    background-image: url('../../Images/birthday/birthday_gal1.jfif');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+.birthimg2{
+    background-image: url('../../Images/birthday/birthday_gal2.jfif');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+.birthimg3{
+    background-image: url('../../Images/birthday/birthday_gal3.jfif');
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+.birthimg4{
+  background-image: url('../../Images/birthday/birthday_gal4.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.birthimg5{
+  background-image: url('../../Images/birthday/birthday_gal5.jpg');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.birthimg6{
+  background-image: url('../../Images/birthday/birthday_gal6.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.birthimg7{
+  background-image: url('../../Images/birthday/birthday_gal7.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.birthimg8{
+  background-image: url('../../Images/birthday/birthday_gal8.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.birthimg9{
+  background-image: url('../../Images/birthday/birthday_gal9.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.birthimg10{
+  background-image: url('../../Images/birthday/birthday_gal10.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.birthimg11{
+  background-image: url('../../Images/birthday/birthday_gal11.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.birthimg12{
+  background-image: url('../../Images/birthday/birthday_gal12.jpg');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+
+/******Baby Shower****/
+.baby1{
+  background-image: url('../../Images/Baby/babyS1.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby2{
+  background-image: url('../../Images/Baby/babyS2.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+
+.baby3{
+  background-image: url('../../Images/Baby/babyS3.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby4{
+  background-image: url('../../Images/Baby/babyS4.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby5{
+  background-image: url('../../Images/Baby/babyS5.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby6{
+  background-image: url('../../Images/Baby/babyS6.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby7{
+  background-image: url('../../Images/Baby/babyS7.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby8{
+  background-image: url('../../Images/Baby/babyS8.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby9{
+  background-image: url('../../Images/Baby/babyS9.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby10{
+  background-image: url('../../Images/Baby/babyS10.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby11{
+  background-image: url('../../Images/Baby/babyS11.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby12{
+  background-image: url('../../Images/Baby/babyS12.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby13{
+  background-image: url('../../Images/Baby/babyS13.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby14{
+  background-image: url('../../Images/Baby/babyS14.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby15{
+  background-image: url('../../Images/Baby/babyS15.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby16{
+  background-image: url('../../Images/Baby/babyS16.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby17{
+  background-image: url('../../Images/Baby/babyS17.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby18{
+  background-image: url('../../Images/Baby/babyS18.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby19{
+  background-image: url('../../Images/Baby/babyS19.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
+.baby20{
+  background-image: url('../../Images/Baby/babyS20.jfif');
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+}
